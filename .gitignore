@@ -33,8 +33,6 @@
 **/build/
 
 # Generated sources
-*.g.dart
-*.config.dart
 
 # Downloaded files
 /mac-vendors-export.csv
