@@ -49,5 +49,5 @@ Future<void> configureNetworkTools(
   configureDependencies();
   final arpService = await _getIt<ARPService>().open();
   await arpService.buildTable();
-  await VendorTable.createVendorTableMap();
+  // await VendorTable.createVendorTableMap();
 }
